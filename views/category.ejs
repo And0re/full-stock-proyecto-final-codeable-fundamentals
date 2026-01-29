@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>FullStock</header>
+
+    <main>
+      <h2><%=category.name%></h2>
+      <p><%=category.description%></p>
+      <hr />
+
+      <form action="" method="">
+        <label for="">Min</label>
+        <input type="text" name="" id="" />
+        <label for="">Max</label>
+        <input type="text" name="" id="" />
+        <button>Filtrar Productos</button>
+      </form>
+
+      <section>
+        <% products.forEach((product) => { %>
+        <div class="">
+          <a href="/products/<%=product.id%>">
+            <img
+              class=""
+              src="<%=product.imagePath%>"
+              alt="<%=product.imageDescription%>"
+            />
+            <h3 class=""><%=product.name%></h3>
+            <p class="">
+              <%=product.description%>
+            </p>
+            <p>
+              <%=product.price%>
+            </p>
+          </a>
+        </div>
+      <% }) %>
+      </section>
+    </main>
+  </body>
+</html>

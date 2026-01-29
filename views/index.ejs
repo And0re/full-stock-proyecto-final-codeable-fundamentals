@@ -1,0 +1,43 @@
+<%- include('partials/header'); %>
+
+    <main>
+      <div class="hero">
+        <h2>Nuevos productos disponibles</h2>
+        <p>
+          Un pequeño lote de increíbles productos acaba de llegar. Agrega tus
+          favoritos al carrito antes que se agoten.
+        </p>
+        <button>Comprar ahora</button>
+      </div>
+      <section class="categories container">
+        <div class="categories__intro">
+          <h2 class="categories__title">Compra por categoría</h2>
+          <p class="categories__description">
+            Explora nuestra selección de productos especialmente diseñados para
+            desarrolladores web. Encuentra lo que buscas navegando por nuestras
+            categorías de polos, tazas, stickers y más.
+          </p>
+        </div>
+        <div class="categories__content">
+          <% categories.forEach((category) => { %>
+            <div class="category">
+              <a href="/categories/<%=category.id%>">
+                <img
+                  class="category__image"
+                  src="<%=category.imagePath%>"
+                  alt="<%=category.imageDescription%>"
+                />
+                <h3 class="category__title"><%=category.name%></h3>
+                <p class="category__description">
+                  <%=category.description%>
+                </p>
+              </a>
+            </div>
+          <% }) %>
+        </div>
+      </section>
+    </main>
+
+
+  </body>
+</html>
