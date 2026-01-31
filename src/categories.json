@@ -16,66 +16,66 @@
             },
             {
                 "id": 2,
-                "name": "Polo React",
+                "name": "Polo JavaScript",
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
                 "price": 20,
-                "imagePath": "/images/polo-react.png",
+                "imagePath": "/images/polo-js.png",
                 "imageDescription": "Polo gris con el logo de React"
             },
             {
                 "id": 3,
-                "name": "Polo React",
+                "name": "Polo Node.js",
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
                 "price": 20,
-                "imagePath": "/images/polo-react.png",
+                "imagePath": "/images/polo-node.png",
                 "imageDescription": "Polo gris con el logo de React"
             },
             {
                 "id": 4,
-                "name": "Polo React",
+                "name": "Polo TypeScript",
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
                 "price": 20,
-                "imagePath": "/images/polo-react.png",
+                "imagePath": "/images/polo-ts.png",
                 "imageDescription": "Polo gris con el logo de React"
             },
             {
                 "id": 5,
-                "name": "Polo React",
+                "name": "Polo Backend Developer",
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
                 "price": 20,
-                "imagePath": "/images/polo-react.png",
+                "imagePath": "/images/polo-backend.png",
                 "imageDescription": "Polo gris con el logo de React"
             },
             {
                 "id": 6,
-                "name": "Polo React",
+                "name": "Polo Frontend Developer",
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
                 "price": 20,
-                "imagePath": "/images/polo-react.png",
+                "imagePath": "/images/polo-frontend.png",
                 "imageDescription": "Polo gris con el logo de React"
             },
             {
                 "id": 7,
-                "name": "Polo React",
+                "name": "Polo Full-Stack Developer",
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
                 "price": 20,
-                "imagePath": "/images/polo-react.png",
+                "imagePath": "/images/polo-fullstack.png",
                 "imageDescription": "Polo gris con el logo de React"
             },
             {
                 "id": 8,
-                "name": "Polo React",
+                "name": "Polo It Works On My Machine",
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
-                "price": 20,
-                "imagePath": "/images/polo-react.png",
+                "price": 15,
+                "imagePath": "/images/polo-works.png",
                 "imageDescription": "Polo gris con el logo de React"
             },
             {
                 "id": 9,
-                "name": "Polo React",
+                "name": "Polo It’s A Feature",
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
-                "price": 20,
-                "imagePath": "/images/polo-react.png",
+                "price": 15,
+                "imagePath": "/images/polo-feature.png",
                 "imageDescription": "Polo gris con el logo de React"
             }
         ]
@@ -86,7 +86,16 @@
         "description": "Tazas que combinan perfectamente con tu café matutino y tu pasión por la programación. ¡Empieza el día con estilo!",
         "imagePath": "/images/categoria-tazas.png",
         "imageDescription": "Una taza blanca con diseño de web developer",
-        "products": []
+        "products": [
+             {
+                "id": 10,
+                "name": "Taza JavaScipt",
+                "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
+                "price": 20,
+                "imagePath": "/images/taza-js.png",
+                "imageDescription": "Taza con el logo de JavaScript"
+            }
+        ]
     },
     {
         "id": 3,

@@ -20,8 +20,8 @@
         </div>
         <div class="categories__content">
           <% categories.forEach((category) => { %>
-            <div class="category">
-              <a href="/categories/<%=category.id%>">
+            <a href="/categories/<%=category.id%>">
+              <div class="category">
                 <img
                   class="category__image"
                   src="<%=category.imagePath%>"
@@ -31,8 +31,8 @@
                 <p class="category__description">
                   <%=category.description%>
                 </p>
-              </a>
-            </div>
+              </div>
+            </a>
           <% }) %>
         </div>
       </section>

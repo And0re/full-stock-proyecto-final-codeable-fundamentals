@@ -1,0 +1,26 @@
+[
+  {
+    "id": 10,
+    "name": "Taza JavaScipt",
+    "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
+    "price": 20,
+    "imagePath": "/images/taza-js.png",
+    "imageDescription": "Taza con el logo de JavaScript"
+  },
+  {
+    "id": 5,
+    "name": "Polo Backend Developer",
+    "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
+    "price": 20,
+    "imagePath": "/images/polo-backend.png",
+    "imageDescription": "Polo gris con el logo de React"
+  },
+  {
+    "id": 2,
+    "name": "Polo JavaScript",
+    "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
+    "price": 20,
+    "imagePath": "/images/polo-js.png",
+    "imageDescription": "Polo gris con el logo de React"
+  }
+]

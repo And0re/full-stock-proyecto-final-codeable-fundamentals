@@ -23,23 +23,23 @@
 
       <section>
         <% products.forEach((product) => { %>
-        <div class="">
           <a href="/products/<%=product.id%>">
-            <img
-              class=""
-              src="<%=product.imagePath%>"
-              alt="<%=product.imageDescription%>"
-            />
-            <h3 class=""><%=product.name%></h3>
-            <p class="">
-              <%=product.description%>
-            </p>
-            <p>
-              <%=product.price%>
-            </p>
+            <div class="product">
+              <img
+                class="product__image"
+                src="<%=product.imagePath%>"
+                alt="<%=product.imageDescription%>"
+              />
+              <h3 class="product__title"><%=product.name%></h3>
+              <p class="product__description">
+                <%=product.description%>
+              </p>
+              <p class="product_price">
+                <%=product.price%>
+              </p>
+            </div>
           </a>
-        </div>
-      <% }) %>
+        <% }) %>
       </section>
     </main>
   </body>
